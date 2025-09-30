@@ -14,44 +14,8 @@ pip3 install -r requirements.txt
 ## Arquivos
 
 - `rag_oficial.py` - Sistema RAG principal (implementação oficial)
-- `rag_simples.py` - Versão anterior (para comparação)
 - `requirements.txt` - Dependências do projeto
 - `README.md` - Este arquivo
-
-## Como usar
-
-### Exemplo básico
-
-```python
-from rag_oficial import RAGBasico
-
-# Cria o sistema RAG
-rag = RAGBasico()
-
-# Seus documentos
-documentos = [
-    "Python é uma linguagem de programação popular.",
-    "Machine Learning é um campo da IA.",
-    "TensorFlow é uma biblioteca para ML."
-]
-
-# Adiciona documentos
-rag.adicionar_documentos(documentos)
-
-# Faz uma pergunta
-resposta = rag.perguntar("O que é Python?")
-print(resposta)
-```
-
-### Executar exemplos
-
-```bash
-# Sistema RAG oficial (recomendado)
-python3 rag_oficial.py
-
-# Sistema anterior (para comparação)
-python3 rag_simples.py
-```
 
 ## Componentes
 
