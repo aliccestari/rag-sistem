@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 RAG Básico - Implementação baseada na documentação oficial
+Somente recupera os documentos mais relevantes de uma base usando embeddings e FAISS e retorna o documento mais próximo como resposta.
 """
 
 import numpy as np
